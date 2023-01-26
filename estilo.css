@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url(pacote-projeto-d010/fontes/BebasNeue\ Bold.ttf);
+}
+
+header{
+    background-image: linear-gradient(to top, #1a5a37, #54BD79);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    text-align: justify;
+    border-radius: 0px;
+
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: 'BebasNeue Bold', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+header > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b5dec8;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+nav{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav > a{ /*Links dentro da barra de navegação*/
+    color: #51e091;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+        
+}
+
+nav > a:hover{
+    background-color: #3ddc84;
+    border-radius: 10px;
+    color: #13472a;
+    transition-duration: 0.4s;
+}
+
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main{
+    min-width: 300px; /*quando tiver 300px ele começa a adaptar*/
+    max-width: 1000px; /*quando tiver 1000px ele para de crescer*/
+    margin: auto;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+
+body{
+    background-color: #89CDA5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2{
+    font-family: 'idroid';
+    font-weight: normal;
+    color: #0d562e;
+}
+
+main h3{
+    font-family: 'idroid';
+    font-weight: normal;
+    background-image: linear-gradient(to right, #67c4917e, #ffffff);
+    color: #0d562e;
+}
+
+main p{
+    text-indent: 30px;
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.enfase{
+    color: #0f7f41;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: auto;
+    width: auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+.video{
+    background-color: #0d562e;
+    padding: 10px;
+    margin: 0px -10px 30px -10px;
+    border-radius: 0px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+iframe{
+    position: absolute; /*Quando usamos o position, podemos utilizar o top e left*/
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+li{
+    list-style-type: "✔";
+}
+
+li > span{
+    text-decoration: underline;
+}
+
+#titulo_box{
+    color: white;
+    background-color: #0d562e;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+#back_box{
+    background-color: #78e69e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+#back_box > ul{
+    list-style-position: inside; /*Colocar a lista dentro da box*/
+    columns: 2;
+}
+
+.segundo_lado{
+    width: 30%;
+}
+
+.enfase_a{
+    color: #0f7f41;
+    font-weight: bold;
+    background-color: #78e69e;
+}
+
+footer{
+    background-color: #13472a;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
